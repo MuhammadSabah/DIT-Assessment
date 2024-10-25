@@ -12,6 +12,7 @@ class BatteryInfoNotifier extends StateNotifier<BatteryInfoStateModel> {
   static const _lowBatteryThreshold = 20;
 
   static const _chargingColor = Colors.green;
+  static const _notChargingColor = Colors.red;
   static const _dischargingColor = Colors.red;
   static const _fullBatteryColor = Colors.blue;
 

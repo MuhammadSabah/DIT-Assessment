@@ -21,7 +21,9 @@ class BatteryInfoSection extends ConsumerWidget {
                 batteryProvider.batteryLevelIcon ??
                     "assets/icons/battery_empty_icon.svg",
                 width: 90,
-                color: Colors.green,
+                color: batteryProvider.batteryLevel != null
+                    ? Colors.green
+                    : Colors.grey,
               ),
               const Text(
                 "Battery Level",
@@ -33,7 +35,7 @@ class BatteryInfoSection extends ConsumerWidget {
                 height: 8,
               ),
               Text(
-                batteryProvider.batteryLevel ?? "",
+                batteryProvider.batteryLevel ?? "%",
                 style: const TextStyle(
                   fontSize: 20,
                 ),
@@ -64,7 +66,7 @@ class BatteryInfoSection extends ConsumerWidget {
                 children: [
                   Expanded(
                     child: Text(
-                      batteryProvider.batteryStatus ?? "",
+                      batteryProvider.batteryStatus ?? "Unknown",
                       maxLines: 1,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
