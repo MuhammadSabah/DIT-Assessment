@@ -10,7 +10,7 @@ class BatteryInfoTriggerButton extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return GestureDetector(
       onTap: () {
-        ref.read(batteryInfoProvider.notifier).getBatteryInfo();
+        ref.read(batteryInfoProvider.notifier).getBatteryInfo(context);
       },
       child: Container(
         height: 60,

@@ -11,7 +11,7 @@ class RefreshButton extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return FloatingActionButton.extended(
       onPressed: () {
-        ref.read(batteryInfoProvider.notifier).getBatteryInfo();
+        ref.read(batteryInfoProvider.notifier).getBatteryInfo(context);
       },
       backgroundColor: Theme.of(context).colorScheme.primary,
       label: Row(
