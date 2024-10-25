@@ -39,7 +39,7 @@ class BatteryInfoNotifier extends StateNotifier<BatteryInfoStateModel> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text("Failed to get battery info: '$message'"),
+        content: Text(state.errorMessage ?? "Error!"),
         duration: const Duration(seconds: 3),
       ),
     );
