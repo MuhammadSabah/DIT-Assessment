@@ -1,16 +1,9 @@
 # dit_assessment
 
-A new Flutter project.
+KRG-DIT Technical Assessment
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Empty State                |   Low & Discharge         |   Half & Not charging     |   Full & Charging
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/user-attachments/assets/49cfbc37-4db6-4a2d-974d-8fb48952612e)|![](https://github.com/user-attachments/assets/4d362f8b-537a-4216-9775-55f798902988)|![](https://github.com/user-attachments/assets/30860078-5162-4e5d-8670-1dfccfbd8b65)|![](https://github.com/user-attachments/assets/21bc5ba3-0175-4251-a189-68cb82e961df)
