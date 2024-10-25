@@ -19,7 +19,6 @@ class BatteryInfoStateModel {
     String? batteryLevel,
     String? batteryStatus,
     String? batteryLevelIcon,
-    String? batteryStatusIcon,
     Color? batteryChargingColor,
     String? errorMessage,
   }) {
