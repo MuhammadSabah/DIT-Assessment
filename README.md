@@ -1,5 +1,7 @@
 # dit_assessment
 
+KRG-DIT Technical Assessment
+
 ## Screenshots
 
 Empty State                |   Low & Discharge         |   Half & Not charging     |   Full & Charging
